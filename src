@@ -1,0 +1,9 @@
+#SPLIT
+
+tweet = "Hello #sports"
+
+twit = tweet.split("#")[-1]  #regresa sports
+
+#split toma el separador y lo coloca en un array
+# el -1 entre corchetes significa que devolvera el ultimo elemento de la lista ['Hello ', 'sports']
+print(twit)
